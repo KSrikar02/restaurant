@@ -3,7 +3,7 @@ function createHome() {
   home.classList.add("home");
 
   const chefImage = document.createElement("img");
-  chefImage.src = "images/chef.png";
+  chefImage.src = "images/restaurant.png";
   chefImage.alt = "Chef";
 
   home.appendChild(createParagraph("Welcome to Our Restaurant!"));
